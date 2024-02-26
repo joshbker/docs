@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "name": "Cool Example",
+            "url": "https://github.com/joshbker/docs-example"
+        },
+        {
+            "name": "Munch",
+            "url": "https://github.com/flytegg/munch/docs"
+        }
+    ]
+}
