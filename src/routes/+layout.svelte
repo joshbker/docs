@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="flex mx-40 gap-x-16">
+    <div class="flex mx-40 gap-x-16 relative">
         <div class="w-52 flex flex-col gap-y-1">
             <a class="text-white/80 hover:text-white transition-colors py-1.5 px-2.5 hover:bg-white/10 rounded" href="/">Introduction</a>
             {#each data.files as file}
@@ -29,9 +29,7 @@
                 <a class="text-white/80 hover:text-white transition-colors py-1.5 px-2.5 hover:bg-white/10 rounded" href={nameToSlug(repository.name)}>{repository.name}</a>
             {/each}
         </div>
-        <div class="prose prose-invert">
-            <slot />
-        </div>
+        <slot />
     </div>
 </div>
 

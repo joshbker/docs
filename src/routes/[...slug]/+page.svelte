@@ -4,4 +4,6 @@
     export let data: PageData
 </script>
 
-<SvelteMarkdown source={data.source} />
+<div class="prose prose-invert">
+    <SvelteMarkdown source={data.source} />
+</div>

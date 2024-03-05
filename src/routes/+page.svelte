@@ -3,4 +3,6 @@
     import introduction from "../../docs/introduction.md?raw"
 </script>
 
-<SvelteMarkdown source={introduction} />
+<div class="prose prose-invert">
+    <SvelteMarkdown source={introduction} />
+</div>
